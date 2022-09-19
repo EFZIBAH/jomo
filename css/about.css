@@ -1,0 +1,21 @@
+.about.container-fluid .d-flex .images img{
+  width: 100%;
+  height: 80px;
+}
+.about.container-fluid .d-flex .images{
+  width: 30%;
+}
+.about.container{
+  display: none;
+}
+
+
+@media(max-width:576px){
+  .about.container-fluid{
+    display: none;
+  }
+  .about.container{
+    display: block;
+  }
+  
+}
